@@ -6,22 +6,22 @@
     app:startDestination="@id/mainActivity">
     <activity
         android:id="@+id/mainActivity"
-        android:name="com.rucafe.cs_213_project_v.MainActivity"
+        android:name="com.rucafe.android_app.MainActivity"
         android:label="activity_main"
         tools:layout="@layout/activity_main" />
     <activity
         android:id="@+id/orderCoffeeActivity"
-        android:name="com.rucafe.cs_213_project_v.OrderCoffeeActivity"
+        android:name="com.rucafe.android_app.OrderCoffeeActivity"
         android:label="activity_order_coffee"
         tools:layout="@layout/activity_order_coffee" />
     <activity
         android:id="@+id/orderDonutsActivity"
-        android:name="com.rucafe.cs_213_project_v.OrderDonutsActivity"
+        android:name="com.rucafe.android_app.OrderDonutsActivity"
         android:label="activity_order_donuts"
         tools:layout="@layout/activity_order_donuts" />
     <activity
         android:id="@+id/orderSandwichesActivity"
-        android:name="com.rucafe.cs_213_project_v.OrderSandwichesActivity"
+        android:name="com.rucafe.android_app.OrderSandwichesActivity"
         android:label="activity_order_sandwiches"
         tools:layout="@layout/activity_order_sandwiches" />
 </navigation>

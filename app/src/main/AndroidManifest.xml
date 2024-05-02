@@ -13,27 +13,27 @@
         android:theme="@style/Theme.CS_213_Project_V"
         tools:targetApi="31">
         <activity
-            android:name=".CurrentOrder"
+            android:name="com.rucafe.android_app.CurrentOrder"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName="com.rucafe.android_app.MainActivity" />
         <activity
-            android:name=".AllOrders"
+            android:name="com.rucafe.android_app.AllOrders"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName="com.rucafe.android_app.MainActivity" />
         <activity
-            android:name=".OrderSandwichesActivity"
+            android:name="com.rucafe.android_app.OrderSandwichesActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName="com.rucafe.android_app.MainActivity" />
         <activity
-            android:name=".OrderDonutsActivity"
+            android:name="com.rucafe.android_app.OrderDonutsActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName="com.rucafe.android_app.MainActivity" />
         <activity
-            android:name=".OrderCoffeeActivity"
+            android:name="com.rucafe.android_app.OrderCoffeeActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName="com.rucafe.android_app.MainActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.rucafe.android_app.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

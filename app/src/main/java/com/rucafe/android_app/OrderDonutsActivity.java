@@ -1,4 +1,4 @@
-package com.rucafe.cs_213_project_v;
+package com.rucafe.android_app;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
@@ -12,6 +12,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.rucafe.cs_213_project_v.R;
 
 import java.util.ArrayList;
 import java.util.List;

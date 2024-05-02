@@ -1,4 +1,4 @@
-package com.rucafe.cs_213_project_v;
+package com.rucafe.android_app;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.widget.ImageButton;
 import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.rucafe.cs_213_project_v.R;
 
 import customAdapter.CustomAdapterMainView;
 

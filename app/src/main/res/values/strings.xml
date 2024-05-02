@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CS_213_Project_V</string>
+    <string name="app_name">Cafe Management Android App</string>
     <string name="allOrder_order_number">Order Number:</string>
     <string name="allOrder_total_amount">Total Amount:</string>
     <string name="allOrder_dollar">$</string>

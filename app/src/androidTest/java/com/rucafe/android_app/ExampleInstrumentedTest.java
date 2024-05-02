@@ -1,4 +1,4 @@
-package com.rucafe.cs_213_project_v;
+package com.rucafe.android_app;
 
 import android.content.Context;
 
