@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp">
+
+    <ImageView
+        android:id="@+id/donutImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="5dp"
+        android:contentDescription="@string/donutOrderItem_donut_order"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/typeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@id/donutImageView"
+        android:fontFamily="@font/copse"
+        android:text="@string/donut_item_type"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/typeofDonutTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_toEndOf="@id/typeText"
+        android:fontFamily="@font/copse"
+        android:text="@string/donut_item_textview"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/flavorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/donutImageView"
+        android:layout_alignBottom="@id/typeText"
+        android:layout_marginEnd="-67dp"
+        android:layout_marginBottom="-28dp"
+        android:fontFamily="@font/copse"
+        android:text="@string/donut_item_flavor"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/donutFlavorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/typeofDonutTextView"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="7dp"
+        android:layout_toEndOf="@id/donutImageView"
+        android:fontFamily="@font/copse"
+        android:text="@string/donut_item_textview_flavor"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/flavorText"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="35dp"
+        android:layout_toEndOf="@id/flavorText"
+        android:fontFamily="@font/copse"
+        android:text="@string/donut_item_qty"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/donutQtySpinner"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/donutFlavorTextView"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="6dp"
+        android:layout_toEndOf="@id/textView15" />
+
+    <TextView
+        android:id="@+id/donutPriceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/copse"
+        android:text="@string/donut_item_textview"
+        android:textSize="17sp" />
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainActivity">
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.rucafe.cs_213_project_v.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/orderCoffeeActivity"
+        android:name="com.rucafe.cs_213_project_v.OrderCoffeeActivity"
+        android:label="activity_order_coffee"
+        tools:layout="@layout/activity_order_coffee" />
+    <activity
+        android:id="@+id/orderDonutsActivity"
+        android:name="com.rucafe.cs_213_project_v.OrderDonutsActivity"
+        android:label="activity_order_donuts"
+        tools:layout="@layout/activity_order_donuts" />
+    <activity
+        android:id="@+id/orderSandwichesActivity"
+        android:name="com.rucafe.cs_213_project_v.OrderSandwichesActivity"
+        android:label="activity_order_sandwiches"
+        tools:layout="@layout/activity_order_sandwiches" />
+</navigation>

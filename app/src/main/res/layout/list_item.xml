@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:gravity="center|left"
+    android:orientation="horizontal"
+    android:background="?attr/selectableItemBackground"
+    tools:ignore="RtlHardcoded,UseCompoundDrawables">
+
+    <ImageView
+        android:id="@+id/mainViewImage"
+        android:layout_width="162dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/ic_launcher_background"
+        android:contentDescription="@string/listimage" />
+
+    <TextView
+        android:id="@+id/mainViewListText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/copse"
+        android:text="@string/list_item_text"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+</LinearLayout>

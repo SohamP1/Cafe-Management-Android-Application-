@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderSandwichesActivity">
+
+    <!-- Add the Toolbar here -->
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/allOrderToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Light"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:subtitleTextColor="@android:color/white"
+            app:title="Order Sandwiches"
+            app:titleTextColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/sandwhichesImageView"
+            android:layout_width="match_parent"
+            android:layout_height="193dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/sandwich"
+            android:contentDescription="@string/sandwich_sandwichImage" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/copse"
+            android:paddingStart="20dp"
+            android:text="@string/sandwich_bread"
+            android:textSize="25sp"
+            tools:ignore="RtlSymmetry" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="top"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/breadRGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:addStatesFromChildren="true"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/bagelRButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:checked="true"
+                    android:fontFamily="@font/copse"
+                    android:minWidth="50dp"
+                    android:text="@string/sandwich_bagel"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/wheatTostRButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:fontFamily="@font/copse"
+                    android:minWidth="50dp"
+                    android:text="@string/sandwich_wheat_toast"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/sourDoughRButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:fontFamily="@font/copse"
+                    android:text="@string/sandwich_sour_dough"
+                    android:textSize="16sp" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/copse"
+            android:paddingStart="20dp"
+            android:text="@string/sandwich_protein"
+            android:textSize="25sp"
+            tools:ignore="RtlSymmetry" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/proteinRGroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/beefRButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:checked="true"
+                    android:fontFamily="@font/copse"
+                    android:text="@string/sandwich_beef"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/fishRButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:fontFamily="@font/copse"
+                    android:text="@string/sandwich_fish"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/chickenRButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="15dp"
+                    android:fontFamily="@font/copse"
+                    android:text="@string/sandwich_chicken"
+                    android:textSize="18sp" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/copse"
+            android:paddingStart="20dp"
+            android:text="@string/sandwich_add_on"
+            android:textSize="25sp"
+            tools:ignore="RtlSymmetry" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/tomatoesCBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:fontFamily="@font/copse"
+                android:text="@string/sandwich_tomatoes"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/lettuceCBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:fontFamily="@font/copse"
+                android:text="@string/sandwich_lettuce"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/cheeseCBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:fontFamily="@font/copse"
+                android:text="@string/sandwich_cheese"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/onionsCBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:fontFamily="@font/copse"
+                android:text="@string/sandwich_onions"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/copse"
+                android:text="@string/sandwich_sub_total"
+                android:textSize="25sp"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:id="@+id/sandwichSubTotalText"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="10dp"
+                android:autofillHints="no"
+                android:ems="10"
+                android:fontFamily="@font/copse"
+                android:textSize="25sp"
+                tools:ignore="LabelFor" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/sandwichAddtoCartButton"
+            android:layout_width="213dp"
+            android:layout_height="63dp"
+            android:fontFamily="@font/copse"
+            android:text="@string/sandwich_add_to_cart"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
