@@ -27,7 +27,7 @@ import impl.OrderService;
  * Activity to handle sandwich ordering, allowing users to choose from various meats, breads, and add-ons,
  * and then add the customized sandwich to the cart.
  *
- * @author Sasanka Paththameistreege
+ * @author Soham Patel
  * @version 1.0
  */
 public class OrderSandwichesActivity extends AppCompatActivity {

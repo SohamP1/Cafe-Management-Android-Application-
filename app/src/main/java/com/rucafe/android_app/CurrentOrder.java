@@ -23,7 +23,7 @@ import impl.OrderService;
  * Activity class to display and manage the current order.
  * Allows users to view, modify, and place their current order.
  *
- * @author Sasanka Paththameistreege
+ * @author Soham Patel
  * @version 1.0
  */
 public class CurrentOrder extends AppCompatActivity {

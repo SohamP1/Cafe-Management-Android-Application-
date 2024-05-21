@@ -27,7 +27,7 @@ import impl.OrderService;
  * Activity class to display and manage all orders.
  * Allows user to view all placed orders, select specific orders, and cancel them.
  *
- * @author Sasanka Pathtameistreege
+ * @author Soham Patel
  * @version 1.0
  */
 public class AllOrders extends AppCompatActivity {

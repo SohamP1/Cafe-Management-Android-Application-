@@ -28,7 +28,7 @@ import impl.OrderService;
  * Activity for ordering donuts, where users can select from various donut types and flavors,
  * adjust quantities, and add them to the cart.
  *
- * @author Sasanka Paththameistreege
+ * @author Soham Patel
  * @version 1.0
  */
 public class OrderDonutsActivity extends AppCompatActivity implements CustomAdapterDonut.OnDonutClickListener{

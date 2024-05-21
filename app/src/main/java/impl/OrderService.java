@@ -8,7 +8,7 @@ import java.util.List;
  * Singleton service class for managing orders and current order items throughout the application.
  * This class provides centralized management of order processing, including adding items to orders,
  * finalizing orders, and accessing current and past orders.
- * @author Sasanka Paththmeistreege
+ * @author Soham Patel
  * @version 1.0
  */
 public class OrderService {

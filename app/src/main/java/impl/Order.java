@@ -10,7 +10,7 @@ import java.util.List;
  * Represents an order in the system, maintaining a list of menu items, and capable of calculating subtotal,
  * sales tax, and total amount. Each order is uniquely identifiable by an order number.
  *
- * @author Sasanka Paththmeistreege
+ * @author Soham Patel
  * @version 1.0
  */
 public class Order {

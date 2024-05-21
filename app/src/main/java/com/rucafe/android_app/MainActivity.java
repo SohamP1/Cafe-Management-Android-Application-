@@ -15,7 +15,7 @@ import customAdapter.CustomAdapterMainView;
  * Main activity class that serves as the entry point for the application.
  * Displays options to navigate to various order activities and access current orders.
  *
- * @author Sasanka Paththameistreege
+ * @author Soham Patel
  * @version 1.0
  */
 public class MainActivity extends AppCompatActivity {

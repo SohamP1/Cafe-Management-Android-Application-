@@ -33,7 +33,7 @@ import impl.OrderService;
  * Activity class to handle coffee ordering.
  * Allows users to select coffee size, add-ins, quantity, and add them to the cart.
  *
- * @author Sasanka Paththameistreege
+ * @author Soham Patel
  * @version 1.0
  */
 public class OrderCoffeeActivity extends AppCompatActivity {
